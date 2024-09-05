@@ -1,0 +1,8 @@
+<h1>Trix test</h1>
+
+<%= form_for @blog do |form| %>
+  <div class="field">
+    <%= form.label :content %>
+    <%= form.rich_text_area :content %>
+  </div>
+<% end %>
